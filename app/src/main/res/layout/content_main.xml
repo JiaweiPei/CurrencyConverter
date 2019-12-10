@@ -25,8 +25,8 @@
         android:id="@+id/input"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="82dp"
-        android:layout_marginLeft="82dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginLeft="61dp"
         android:layout_marginTop="36dp"
         android:layout_marginEnd="19dp"
         android:layout_marginRight="19dp"
@@ -38,7 +38,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/Currency"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.166" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"
@@ -71,17 +72,17 @@
         android:layout_height="380dp"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
-        android:layout_marginTop="140dp"
+        android:layout_marginTop="73dp"
         android:layout_marginEnd="215dp"
         android:layout_marginRight="215dp"
-        android:layout_marginBottom="83dp"
+        android:layout_marginBottom="136dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.306"
+        app:layout_constraintHorizontal_bias="0.29"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.222">
+        app:layout_constraintTop_toBottomOf="@+id/Currency"
+        app:layout_constraintVertical_bias="0.74">
 
         <Button
             android:id="@+id/USD"
@@ -140,14 +141,13 @@
         android:layout_marginLeft="40dp"
         android:layout_marginEnd="25dp"
         android:layout_marginRight="25dp"
-        android:layout_marginBottom="82dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/linearLayout"
-        app:layout_constraintTop_toTopOf="@+id/guideline"
-        app:layout_constraintVertical_bias="1.0">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.65999997">
 
         <TextView
             android:id="@+id/usdNum"
